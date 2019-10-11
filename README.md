@@ -15,6 +15,11 @@ npm run dev
 npm run build
 ```
 
+### Compiles, minifies and deploy to GitHub Pages
+```
+npm run build
+```
+
 ### Run your tests
 ```
 npm run test
