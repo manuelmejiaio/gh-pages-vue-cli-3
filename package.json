@@ -42,5 +42,10 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "eslintIgnore": [
+    "dist",
+    "docs",
+    "node_modules"
+  ]
 }
