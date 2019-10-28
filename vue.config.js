@@ -3,6 +3,7 @@ const PrerenderSPAPlugin = require('prerender-spa-plugin')
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production' ? '/gh-pages-vue-cli-3/' : '/',
   configureWebpack: (config) => {
     if (process.env.NODE_ENV !== 'production') return
 
